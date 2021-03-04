@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Fri, 26 Feb 2021 02:55:16 +0100
+Source: linux-5.10.13-macbookair72
+Binary: linux-headers-5.10.13-macbookair72 linux-image-5.10.13-macbookair72 linux-image-5.10.13-macbookair72-dbg linux-libc-dev
+Architecture: source amd64
+Version: 5.10.13-1
+Distribution: kali-rolling
+Urgency: low
+Maintainer: root <norber.developer@gmail.com>
+Changed-By: root <norber.developer@gmail.com>
+Description:
+ linux-headers-5.10.13-macbookair72 - Linux kernel headers for 5.10.13-macbookair72 on amd64
+ linux-image-5.10.13-macbookair72 - Linux kernel, version 5.10.13-macbookair72
+ linux-image-5.10.13-macbookair72-dbg - Linux kernel debugging symbols for 5.10.13-macbookair72
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-5.10.13-macbookair72 (5.10.13-1) kali-rolling; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ f4c80771cb0e8289d199dbf3aea9f8473b56b5e5 1311 linux-5.10.13-macbookair72_5.10.13-1.dsc
+ 10839381570f115947e506c0d7faf3a2ded59b43 189597978 linux-5.10.13-macbookair72_5.10.13.orig.tar.gz
+ bbbf301ac7534727e925c12ef379b74dd583af7b 252391 linux-5.10.13-macbookair72_5.10.13-1.diff.gz
+ d8e2fda742d9c6b8c1b82b66397ba834da4fcd40 5830 linux-5.10.13-macbookair72_5.10.13-1_amd64.buildinfo
+ 9d4887b3a41adb2c039f7c952fe168cdcd797c2a 8292124 linux-headers-5.10.13-macbookair72_5.10.13-1_amd64.deb
+ da38f0603f6ec491392170d91a679c70d1337456 556059572 linux-image-5.10.13-macbookair72-dbg_5.10.13-1_amd64.deb
+ 4f470ceda7ff909ea174976f57a2dd8a5b344657 39924080 linux-image-5.10.13-macbookair72_5.10.13-1_amd64.deb
+ f18defb2639459105689e89ca084af408545a7c9 1135204 linux-libc-dev_5.10.13-1_amd64.deb
+Checksums-Sha256:
+ f7a0ff340ad03f6d3131f8d54349c8cbe7a8123afc0a7e9f81962b02d0051252 1311 linux-5.10.13-macbookair72_5.10.13-1.dsc
+ e710335563c1bb946e2da3b685319b8f6bdaeabd91c1a0e3189f5c5fd17b13cc 189597978 linux-5.10.13-macbookair72_5.10.13.orig.tar.gz
+ d541cdf15ba51f90695ab5c571e25196b2d132728a06f32cbd20d7e3e5b73d2e 252391 linux-5.10.13-macbookair72_5.10.13-1.diff.gz
+ f5f8b45283c7b4b99a216e5e4260e71d74e63c93dd582f58d08e01125f841b4d 5830 linux-5.10.13-macbookair72_5.10.13-1_amd64.buildinfo
+ 4c478c1f8a5b12838b81bb6d3ac4285111bf662ab4ee07cefb04c616a783382a 8292124 linux-headers-5.10.13-macbookair72_5.10.13-1_amd64.deb
+ 3a761f4cec6933428d7d8ad000f3dab89c15e39015924faacac8feed0d7599e4 556059572 linux-image-5.10.13-macbookair72-dbg_5.10.13-1_amd64.deb
+ 60ff849620fb060ce41bd805edaf6d59875f4628ac29d0eb509a04e481c936f4 39924080 linux-image-5.10.13-macbookair72_5.10.13-1_amd64.deb
+ 6a7c25916c5763b5b844b72d4c4ca89b38f3a019e29c16106d852def298deffc 1135204 linux-libc-dev_5.10.13-1_amd64.deb
+Files:
+ 9d5ec495ca6fd7c8d1fd672f5b36c7ca 1311 kernel optional linux-5.10.13-macbookair72_5.10.13-1.dsc
+ 2da400e36fef9633b5337efa59889a4e 189597978 kernel optional linux-5.10.13-macbookair72_5.10.13.orig.tar.gz
+ aae8e86898fae7f59a881c93b1cab719 252391 kernel optional linux-5.10.13-macbookair72_5.10.13-1.diff.gz
+ 97d75f8ef870c5b21d7f3e8b3d99165e 5830 kernel optional linux-5.10.13-macbookair72_5.10.13-1_amd64.buildinfo
+ 72d692207adc6e02642d37cb44df1274 8292124 kernel optional linux-headers-5.10.13-macbookair72_5.10.13-1_amd64.deb
+ bf7d47cee2d630561454c1102c7bcb9b 556059572 debug optional linux-image-5.10.13-macbookair72-dbg_5.10.13-1_amd64.deb
+ d2ffd5efe642c65ed8781d08b4dfac0b 39924080 kernel optional linux-image-5.10.13-macbookair72_5.10.13-1_amd64.deb
+ 34331649c23291941ef29ae1791582ec 1135204 devel optional linux-libc-dev_5.10.13-1_amd64.deb
